@@ -13,5 +13,9 @@ export function sum(a,b){
         b = 0;
     }
 
+    if (typeof(a) !== "number" || typeof(b) !== "number"){
+        throw new Error("TypeError")
+    }
+
     return a + b
 }
