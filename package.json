@@ -1,0 +1,11 @@
+{
+  "name": "test-live-coding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "author": "alex.trittibach@powercoders.org",
+  "license": "ISC"
+}
